@@ -27,7 +27,7 @@
 # print(f"minimum to flip: {ans}")
 
 
-# # variant to deal task #2:
+# # An example of an ideal solution:
 # n = int(input())
 # count_zero = 0
 # count_one = 0
@@ -61,7 +61,7 @@
 #         print("Petya is trying to confuse")
 #         break
 
-# # variant to deal task #2:
+# # An example of an ideal solution:
 # x = int(input())
 # y = int(input())
 # for i in range(x):
@@ -80,7 +80,7 @@
 #     print(k, end =' ')
 #     k = k * 2
 
-# # variant to deal task #2:
+# # An example of an ideal solution:
 # n = int(input())
 # i = 0
 # while 2 ** i <= n:
