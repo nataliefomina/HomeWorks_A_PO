@@ -27,6 +27,21 @@
 # print(f"minimum to flip: {ans}")
 
 
+# # variant to deal task #2:
+# n = int(input())
+# count_zero = 0
+# count_one = 0
+# for i in range(n):
+# x = int(input())
+# if x == 0:
+# count_zero += 1
+# else:
+# count_one += 1
+# if count_one > count_zero:
+# print(count_zero)
+# else:
+# print(count_one)
+
 # # Петя и Катя – брат и сестра. Петя – студент, а Катя – школьница. Петя помогает Кате по математике.
 # # Он задумывает два натуральных числа X и Y (X,Y≤1000), а Катя должна их отгадать.
 # # Для этого Петя делает две подсказки. Он называет сумму этих чисел S и их произведение P.
@@ -46,6 +61,14 @@
 #         print("Petya is trying to confuse")
 #         break
 
+# # variant to deal task #2:
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
+
 # # Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N.
 # # Пример:
 # # 10 -> 1 2 4 8
@@ -56,3 +79,10 @@
 # while k <= N:
 #     print(k, end =' ')
 #     k = k * 2
+
+# # variant to deal task #2:
+# n = int(input())
+# i = 0
+# while 2 ** i <= n:
+#     print(2 ** i)
+#     i += 1
